@@ -1,0 +1,99 @@
+:root {
+    --pozadina: black;
+    --font: 'Inconsolata', monospace;
+    --zlatna_boja: rgb(163, 159, 113);
+}
+
+
+
+body {
+    background: var(--pozadina);
+}
+
+h1 {
+    color:rgb(236, 236, 236);
+    font-family: var(--font);
+    font-size: 25px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+h2 {
+    color:rgb(236, 236, 236);
+    font-family: var(--font);
+    font-size: 18px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.img-fluid {
+    padding: -7cm;
+    margin-bottom: 0.5cm;
+}
+
+h5 {
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 0.8cm;
+    margin-bottom: 10px;
+    font-family: var(--font);
+}
+
+.naziv {
+    margin-top: 0.5cm;
+    text-align: center;
+    background: var(--pozadina);
+    text-transform: uppercase;
+    color:white;
+    align-items: flex-end;
+}
+
+.piće {
+    background: var(--pozadina);
+    color: var(--zlatna_boja);
+    border-color: transparent;
+    text-decoration: none;
+    font-size: 0.5cm;
+    margin-top: -0.2cm;
+    font-family: var(--font);
+}
+
+
+.cijena {
+    background: var(--pozadina);
+    color: rgb(163, 159, 113);
+    border-color: transparent;
+    text-decoration: none;
+    font-size: 0.5cm;
+    margin-top: -0.2cm;
+    font-family: var(--font);
+    align-self: end;
+}
+
+
+
+.list-group-item {
+    background: var(--pozadina);
+    color: rgb(163, 159, 113);
+    border-color: transparent;
+    text-decoration: none;
+    font-size: 0.5cm;
+    margin-top: -0.2cm;
+    font-family: var(--font);
+}
+
+
+.col2 {
+    text-align: right;
+}
+
+
+.btn {
+    font-size: large;
+    color: var(--zlatna_boja);
+    border-style: solid;
+    border-color: var(--zlatna_boja);
+    margin: 5px;
+
+}
