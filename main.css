@@ -83,7 +83,7 @@ h4 {
 }
 
 .list-group-item {
-  background: var(--pozadina);
+  background: transparent;
   color: #a39f71;
   border-color: transparent;
   text-decoration: none;
