@@ -1,7 +1,7 @@
 :root {
     --pozadina: black;
     --font: 'Inconsolata', monospace;
-    --zlatna_boja: rgb(163, 159, 113);
+    --zlatna_boja: rgb(129, 124, 63);
 }
 
 
@@ -13,7 +13,7 @@ body {
 h1 {
     color:rgb(236, 236, 236);
     font-family: var(--font);
-    font-size: 25px;
+    font-size: 20px;
     text-align: center;
     padding-top: 10px;
 }
@@ -36,6 +36,16 @@ h5 {
     text-transform: uppercase;
     text-align: center;
     font-size: 0.8cm;
+    margin-bottom: 10px;
+    font-family: var(--font);
+}
+
+
+h4 {
+    color: white;
+    text-align: center;
+    text-transform: lowercase;
+    font-size: 0.6cm;
     margin-bottom: 10px;
     font-family: var(--font);
 }
@@ -74,13 +84,24 @@ h5 {
 
 
 .list-group-item {
-    background: var(--pozadina);
+    background: transparent;
     color: rgb(163, 159, 113);
     border-color: transparent;
     text-decoration: none;
     font-size: 0.5cm;
-    margin-top: -0.2cm;
+    margin-top: 0.0cm;
+    margin-left: -25px;
+    margin-right: -25px;
     font-family: var(--font);
+}
+
+
+
+.razmak {
+    background: var(--pozadina);
+    color:transparent;
+    font-size: 20px;
+    margin-top: 0.0cm;
 }
 
 
