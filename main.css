@@ -1,7 +1,7 @@
 @charset "UTF-8";
 :root {
   --pozadina: black;
-  --font: 'Inconsolata', monospace;
+  --font: 'Bebas Neue', monospace;
   --zlatna_boja: rgb(160, 158, 137);
 }
 
@@ -34,7 +34,8 @@ h5 {
   color: white;
   text-transform: uppercase;
   text-align: center;
-  font-size: 0.8cm;
+  font-family: var(--font);
+  font-size: 1cm;
   margin-bottom: 10px;
   font-family: var(--font);
 }
@@ -87,7 +88,7 @@ h4 {
   color: var(--zlatna_boja);
   border-color: transparent;
   text-decoration: none;
-  font-size: 0.5cm;
+  font-size: 0.7cm;
   margin-top: 0.0cm;
   margin-left: -25px;
   margin-right: -25px;
@@ -97,7 +98,7 @@ h4 {
 .razmak {
   background: var(--pozadina);
   color: transparent;
-  font-size: 20px;
+  font-size: 19px;
   margin-top: 0.0cm;
 }
 
@@ -106,7 +107,8 @@ h4 {
 }
 
 .btn {
-  font-size: large;
+  font-size: 30px;
+  font-family: var(--font);
   color: var(--zlatna_boja);
   border-style: solid;
   border-color: var(--zlatna_boja);
