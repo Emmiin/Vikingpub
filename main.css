@@ -2,7 +2,7 @@
 :root {
   --pozadina: black;
   --font: 'Inconsolata', monospace;
-  --zlatna_boja: rgb(129, 124, 63);
+  --zlatna_boja: rgb(160, 158, 137);
 }
 
 body {
@@ -84,7 +84,7 @@ h4 {
 
 .list-group-item {
   background: transparent;
-  color: #a39f71;
+  color: var(--zlatna_boja);
   border-color: transparent;
   text-decoration: none;
   font-size: 0.5cm;
