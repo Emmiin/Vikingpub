@@ -2,7 +2,7 @@
 :root {
   --pozadina: black;
   --font: 'Bebas Neue', monospace;
-  --zlatna_boja: rgb(160, 158, 137);
+  --zlatna_boja: rgb(156, 151, 89);
 }
 
 body {
@@ -12,7 +12,7 @@ body {
 h1 {
   color: #ececec;
   font-family: var(--font);
-  font-size: 20px;
+  font-size: 30px;
   text-align: center;
   padding-top: 10px;
 }
@@ -98,7 +98,7 @@ h4 {
 .razmak {
   background: var(--pozadina);
   color: transparent;
-  font-size: 19px;
+  font-size: 27px;
   margin-top: 0.0cm;
 }
 
