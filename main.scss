@@ -1,7 +1,7 @@
 :root {
     --pozadina: black;
-    --font: 'Inconsolata', monospace;
-    --zlatna_boja: rgb(129, 124, 63);
+    --font: 'Bebas Neue', monospace;
+    --zlatna_boja: rgb(156, 151, 89);
 }
 
 
@@ -13,7 +13,7 @@ body {
 h1 {
     color:rgb(236, 236, 236);
     font-family: var(--font);
-    font-size: 20px;
+    font-size: 30px;
     text-align: center;
     padding-top: 10px;
 }
@@ -35,11 +35,21 @@ h5 {
     color: white;
     text-transform: uppercase;
     text-align: center;
-    font-size: 0.8cm;
+    font-family: var(--font);
+    font-size: 1cm;
     margin-bottom: 10px;
     font-family: var(--font);
 }
 
+h6 {
+    color: var(--zlatna_boja);
+    text-transform: uppercase;
+    text-align: center;
+    font-family: var(--font);
+    font-size: 1cm;
+    margin-bottom: 10px;
+    font-family: var(--font);
+}
 
 h4 {
     color: white;
@@ -85,10 +95,10 @@ h4 {
 
 .list-group-item {
     background: transparent;
-    color: rgb(163, 159, 113);
+    color: var(--zlatna_boja);
     border-color: transparent;
     text-decoration: none;
-    font-size: 0.5cm;
+    font-size: 0.7cm;
     margin-top: 0.0cm;
     margin-left: -25px;
     margin-right: -25px;
@@ -100,7 +110,7 @@ h4 {
 .razmak {
     background: var(--pozadina);
     color:transparent;
-    font-size: 20px;
+    font-size: 27px;
     margin-top: 0.0cm;
 }
 
@@ -111,7 +121,8 @@ h4 {
 
 
 .btn {
-    font-size: large;
+    font-size: 30px;
+    font-family: var(--font);
     color: var(--zlatna_boja);
     border-style: solid;
     border-color: var(--zlatna_boja);
