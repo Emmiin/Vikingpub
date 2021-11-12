@@ -40,6 +40,16 @@ h5 {
   font-family: var(--font);
 }
 
+h6 {
+  color: var(--zlatna_boja);
+  text-transform: uppercase;
+  text-align: center;
+  font-family: var(--font);
+  font-size: 1cm;
+  margin-bottom: 10px;
+  font-family: var(--font);
+}
+
 h4 {
   color: white;
   text-align: center;
